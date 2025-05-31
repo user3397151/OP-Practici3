@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
@@ -60,7 +61,7 @@ void handle_client(int client_fd) {
         "body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }"
         "</style></head>"
         "<body>"
-        "<h2>Received Message:</h2>"
+        "<h2>Получено сообщение:</h2>"
         "<div style='border:1px solid #ccc; padding:20px; margin:20px auto; width:50%%;'>%s</div>"
         "<img src='https://www.mirea.ru/upload/medialibrary/c1a/MIREA_Gerb_Colour.jpg' width='200' alt='MIREA Logo'>"
         "</body></html>";
